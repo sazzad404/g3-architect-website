@@ -237,6 +237,10 @@ main>section {
         flex-direction: column;
     }
 
+    .displayflex {
+        flex-direction: column;
+    }
+
     .team-img-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -285,6 +289,8 @@ main>section {
     .sopnsors-company {
         justify-items: center;
         gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #experience-badge {
@@ -293,6 +299,7 @@ main>section {
         margin: 20px 0 0 0;
         display: block;
         text-align: center;
+        margin: auto;
     }
 
     .feature-architect img {
@@ -304,6 +311,14 @@ main>section {
         #experience-year {
             display: flex;
             justify-content: center;
+        }
+
+        .feature-architect {
+            text-align: center;
+        }
+
+        .section-title {
+            text-align: center;
         }
     }
 
@@ -328,7 +343,9 @@ main>section {
             justify-items: center;
 
         }
-        .sopnsors-company{
-            gap: 20px;
+        
+
+        .sopnsors-company {
+            gap: 40px;
         }
     }
